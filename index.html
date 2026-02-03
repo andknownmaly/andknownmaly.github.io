@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Danang Tri Atmaja - Cybersecurity Enthusiast & Software Developer Portfolio">
+    <meta name="keywords" content="cybersecurity, penetration testing, python developer, web security">
+    <meta name="author" content="Danang Tri Atmaja">
+    
+    <meta property="og:title" content="Danang Tri Atmaja - Portfolio">
+    <meta property="og:description" content="Cybersecurity Enthusiast & Software Developer">
+    <meta property="og:type" content="website">
+    
+    <title>Danang Tri Atmaja - Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <a href="#home">About Me</a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-id="Beranda">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-id="Tentang">About</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-id="Keahlian">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-id="Proyek">Projects</a></li>
+                <li><a href="#certificates" class="nav-link" data-en="Certificates" data-id="Sertifikat">Certificates</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-id="Kontak">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+                    <span class="lang-text">EN</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting" data-en="Hi, I'm" data-id="Halo, Saya">Hi, I'm</span>
+                    <span class="name">Danang Tri Atmaja</span>
+                </h1>
+                <p class="hero-subtitle" data-en="Cybersecurity Enthusiast | Jr. Penetration Tester & Open Source Tool Developer" data-id="Cybersecurity Enthusiast | Jr. Penetration Tester & Open Source Tool Developer">
+                    Cybersecurity Enthusiast | Jr. Penetration Tester & Open Source Tool Developer
+                </p>
+                <p class="hero-description" data-en="Passionate about security research, automation, and building tools that matter." data-id="Bersemangat dalam riset keamanan, otomasi, dan membangun tools yang bermanfaat.">
+                    Passionate about security research, automation, and building tools that matter.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-en="View Projects" data-id="Lihat Proyek">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="https://github.com/andknownmaly/andknownmaly.github.io/releases/download/cv-1/Danang.Tri.Atmaja_CV.pdf" id="downloadCV" class="btn btn-secondary" data-en="Download CV" data-id="Unduh CV">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/andknownmaly" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/danang-tri-atmaja-andknownmaly" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:andknownmaly@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Danang Tri Atmaja" class="profile-photo">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-id="Tentang Saya">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="I'm a cybersecurity enthusiast, jr. penetration tester and software developer with a passion for creating innovative security tools and automation solutions. My expertise spans penetration testing, vulnerability research, and developing practical tools for the security community." 
+                       data-id="Saya adalah cybersecurity enthusiast, jr. penetration tester dan software developer dengan passion dalam menciptakan tools keamanan dan solusi otomasi yang inovatif. Keahlian saya mencakup penetration testing, riset keamanan, dan pengembangan tools praktis untuk komunitas keamanan.">
+                        I'm a cybersecurity enthusiast, jr. penetration tester and software developer with a passion for creating innovative security tools and automation solutions. My expertise spans penetration testing, vulnerability research, and developing practical tools for the security community.
+                    </p>
+                    <p data-en="With experience in Python, Shell scripting, and web technologies, I've contributed multiple open-source projects focusing on automation, security testing, and system administration." 
+                       data-id="Dengan pengalaman di Python, Shell scripting, dan teknologi web, saya telah berkontribusi dalam berbagai proyek open-source yang fokus pada otomasi, security testing, dan system administration.">
+                        With experience in Python, Shell scripting, and web technologies, I've contributed multiple open-source projects focusing on automation, security testing, and system administration.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 class="stat-number" id="repoCount">60+</h3>
+                            <p class="stat-label" data-en="Projects" data-id="Proyek">Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" id="starCount">30+</h3>
+                            <p class="stat-label" data-en="GitHub Stars" data-id="GitHub Stars">GitHub Stars</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">5+</h3>
+                            <p class="stat-label" data-en="Languages" data-id="Bahasa">Languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Skills & Expertise" data-id="Keahlian & Expertise">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-en="Cybersecurity" data-id="Keamanan Siber">Cybersecurity</h3>
+                    <ul>
+                        <li>Penetration Testing</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Security Research</li>
+                        <li>Exploit Development</li>
+                        <li>Web Application Security</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-en="Programming" data-id="Pemrograman">Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Shell Scripting</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Go</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-en="Tools & Technologies" data-id="Tools & Teknologi">Tools & Technologies</h3>
+                    <ul>
+                        <li>Linux System Administration</li>
+                        <li>Nmap, Metasploit</li>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>Web Technologies (HTML/CSS/JS/PHP)</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 data-en="Specializations" data-id="Spesialisasi">Specializations</h3>
+                    <ul>
+                        <li>Automation & Scripting</li>
+                        <li>Tool Development</li>
+                        <li>API Integration</li>
+                        <li>Data Analysis</li>
+                        <li>System Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Featured Projects" data-id="Proyek Unggulan">Featured Projects</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-en="All" data-id="Semua">All</button>
+                <button class="filter-btn" data-filter="python" data-en="Python" data-id="Python">Python</button>
+                <button class="filter-btn" data-filter="shell" data-en="Shell" data-id="Shell">Shell</button>
+                <button class="filter-btn" data-filter="web" data-en="Web" data-id="Web">Web</button>
+                <button class="filter-btn" data-filter="security" data-en="Security" data-id="Keamanan">Security</button>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p data-en="Loading projects..." data-id="Memuat proyek...">Loading projects...</p>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="https://github.com/andknownmaly?tab=repositories" target="_blank" class="btn btn-outline" data-en="View All on GitHub" data-id="Lihat Semua di GitHub">
+                    <i class="fab fa-github"></i> View All on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-en="Certificates & Awards" data-id="Sertifikat & Penghargaan">Certificates & Awards</h2>
+            
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/CAPT.png" alt="CAPT Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="CAPT: Certified Associate Penetration Tester" data-id="CAPT: Certified Associate Penetration Tester">CAPT: Certified Associate Penetration Tester</h3>
+                        <p class="certificate-issuer" data-en="Issued by Hackviser" data-id="Diterbitkan oleh Hackviser">Issued by Hackviser</p>
+                        <p class="certificate-date" data-en="November 2025" data-id="November 2025">November 2025</p>
+                        <p class="certificate-description" data-en="Professional certification in penetration testing and security assessment" data-id="Sertifikasi profesional dalam pengujian penetrasi dan penilaian keamanan">Professional certification in penetration testing and security assessment</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/CRTA.png" alt="CRTA Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-award"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="CRTA: Certified Red Team Analyst" data-id="CRTA: Certified Red Team Analyst">CRTA: Certified Red Team Analyst</h3>
+                        <p class="certificate-issuer" data-en="Issued by CyberWarfare Labs" data-id="Diterbitkan oleh CyberWarfare Labs">Issued by CyberWarfare Labs</p>
+                        <p class="certificate-date" data-en="May 2025" data-id="Mei 2025">May 2025</p>
+                        <p class="certificate-description" data-en="Advanced red team operations and offensive security certification" data-id="Sertifikasi operasi red team lanjutan dan keamanan ofensif">Advanced red team operations and offensive security certification</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/CWSE.png" alt="CWSE Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="CWSE: Certified Web Security Expert" data-id="CWSE: Certified Web Security Expert">CWSE: Certified Web Security Expert</h3>
+                        <p class="certificate-issuer" data-en="Issued by Hackviser" data-id="Diterbitkan oleh Hackviser">Issued by Hackviser</p>
+                        <p class="certificate-date" data-en="December 2025" data-id="Desember 2025">December 2025</p>
+                        <p class="certificate-description" data-en="Expert-level certification in web application security and testing" data-id="Sertifikasi tingkat ahli dalam keamanan dan pengujian aplikasi web">Expert-level certification in web application security and testing</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/netcomp2.0.png" alt="Network Competition" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="1st Place at Network Competition 2.0" data-id="Juara 1 Network Competition 2.0">1st Place at Network Competition 2.0</h3>
+                        <p class="certificate-issuer" data-en="Issued by Electronical Enginering and Informatics UGM" data-id="Diterbitkan oleh Teknik Elektro dan Informatika UGM">Issued by Electronical Enginering and Informatics UGM</p>
+                        <p class="certificate-date" data-en="February 2024" data-id="Februari 2024">February 2024</p>
+                        <p class="certificate-description" data-en="Champion in networking and infrastructure competition" data-id="Juara dalam kompetisi jaringan dan infrastruktur">Champion in networking and infrastructure competition</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/digination.png" alt="Digination Fest" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="2nd Place at Digination Fest 2024" data-id="Juara 2 Digination Fest 2024">2nd Place at Digination Fest 2024</h3>
+                        <p class="certificate-issuer" data-en="Issued by PPI Dunia" data-id="Diterbitkan oleh PPI Dunia">Issued by PPI Dunia</p>
+                        <p class="certificate-date" data-en="June 2024" data-id="Juni 2024">June 2024</p>
+                        <p class="certificate-description" data-en="Runner-up in networking and infrastructure competition" data-id="Runner-up dalam kompetisi jaringan dan infrastruktur">Runner-up in networking and infrastructure competition</p>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/cert/etime.png" alt="E-Time Competition" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder-cert" style="display: none;">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 data-en="3rd Place at E-Time Competition 2024" data-id="Juara 3 E-Time Competition 2024">3rd Place at E-Time Competition 2024</h3>
+                        <p class="certificate-issuer" data-en="Issued by Politeknik Negeri Jakarta" data-id="Diterbitkan oleh Politeknik Negeri Jakarta">Issued by Politeknik Negeri Jakarta</p>
+                        <p class="certificate-date" data-en="August 2024" data-id="Agustus 2024">August 2024</p>
+                        <p class="certificate-description" data-en="Third place in networking and infrastructure competition" data-id="Peringkat ketiga dalam kompetisi jaringan dan infrastruktur">Third place in networking and infrastructure competition</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-id="Hubungi Saya">Get In Touch</h2>
+            <p class="contact-description" data-en="Feel free to reach out for collaborations, opportunities, or just a friendly chat!" data-id="Jangan ragu untuk menghubungi untuk kolaborasi, peluang, atau sekadar ngobrol!">
+                Feel free to reach out for collaborations, opportunities, or just a friendly chat!
+            </p>
+            
+            <div class="contact-methods">
+                <a href="mailto:andknownmaly@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>andknownmaly@gmail.com</p>
+                </a>
+                
+                <a href="https://github.com/andknownmaly" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>@andknownmaly</p>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/danang-tri-atmaja-andknownmaly" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Danang Tri Atmaja</p>
+                </a>
+                <a href="https://instagram.com/andknownmaly" target="_blank" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@andknownmaly</p>
+                </a>
+                <a href="https://wa.me/+6287875959245?text=Hello Dan, I found your portfolio and would like to connect." target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>click it!</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Danang Tri Atmaja. <span data-en="All rights reserved." data-id="Hak cipta dilindungi.">All rights reserved.</span></p>
+            <p class="footer-note" data-en="Built with HTML, CSS, and JavaScript" data-id="Dibuat dengan HTML, CSS, dan JavaScript">Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
